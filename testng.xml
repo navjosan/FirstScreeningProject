@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="qaScripts.JavaScriptError"/>
+      <class name="qaScripts.DynamicControlsTest"/>
+      <class name="qaScripts.IFrameTest"/>
+      <class name="qaScripts.FileUploadTest"/>
+      <class name="qaScripts.MultipleWindowsTest"/>
+      <class name="qaScripts.DynamicContentTest"/>
+      <class name="qaScripts.DynamicLoadingTest"/>
+      <class name="qaScripts.MouseHoverTest"/>
+      <class name="qaScripts.FileDownloadTest"/>
+      <class name="qaScripts.DragAndDropTest"/>
+      <class name="qaScripts.NotificationMessageTest"/>
+      <class name="qaScripts.JavaScriptAlertsTest"/>
+      <class name="qaScripts.SignInTest"/>
+      <class name="qaScripts.DropDownTest"/>
+      <class name="qaScripts.FloatingMenuTest"/>
+      <class name="qaScripts.ContextMenuTest"/>
+      <class name="qaScripts.CheckBoxTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
